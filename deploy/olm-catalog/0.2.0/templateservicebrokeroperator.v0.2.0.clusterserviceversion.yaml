@@ -231,7 +231,7 @@ spec:
               serviceAccountName: template-service-broker-operator
               containers:
               - name: template-service-broker-operator
-                image: docker.io/automationbroker/template-service-broker-operator:latest
+                image: quay.io/shawn_hurley/tsb-operator:latest
                 imagePullPolicy: Always
                 env:
                 - name: IMAGE
