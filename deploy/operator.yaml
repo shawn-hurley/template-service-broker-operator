@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: template-service-broker-operator
-  namespace: openshift-template-service-broker
+  namespace: REPLACE_NAMESPACE
 spec:
   replicas: 1
   selector:
